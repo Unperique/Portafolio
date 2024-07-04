@@ -45,21 +45,7 @@
         ]
       },
       "technical_skills": {
-        "title": "Habilidades técnicas",
-        "items": [
-          "HTML",
-          "CSS",
-          "js",
-          "PHP",
-          "MySQL",
-          "TypeScript",
-          "React",
-          "Python",
-          "C",
-          "C++",
-          "AppSheet",
-          "AppScript"
-        ]
+        "title": "Habilidades técnicas"
       }
     },
     "contact": {
