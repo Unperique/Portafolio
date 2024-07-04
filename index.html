@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <img src="Images/yo.jpg" alt="Foto de Andres Felipe Morales Mejia" class="profile-photo">
+
+        <h1>Sobre mí</h1>
+        <p>No soy una maquina, soy un desarrollador con ganas de apender cada dia nuevas habilidades y tecnologias.
+            Mi nombre es Andres Felipe Morales Mejia y soy estudiante de la universidad tecnologica de Pereira,
+            en la carrera de ingenieria de sistemas y computacion. Mi enfoque principal es el frontend, pero me le mido a lo que sea.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h1>Proyectos Principales</h1>
+        <div class="project">
+            <h2>Envio de correos automatizados</h2>
+            <p>En la empresa necesitaba este servicio ya que al cliente no le llegaba el correo de los productos o mensualidades, por lo que usando Excel y AppScript realice un envío automático de correos y personalizados.</p>
+        </div>
+        <div class="project">
+            <h2>Sistema de información</h2>
+            <p>Fui seleccionado para que la Facultad de Doctorado en Ingenierías, la cual usaba muchas tablas de hojas de cálculo de Google para el manejo de la información. Para solucionar este problema y sin gastar recursos de la facultad, use AppSheet de Google para mejor manejo de información de cada estudiante.</p>
+        </div>
+        <div class="project">
+            <h2>Otros proyectos</h2>
+            <p>Para más proyectos puedes visitar mi <a href="https://github.com/Unperique" target="_blank">GitHub</a>.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h1>Habilidades blandas</h1>
+        <ul>
+            <li>Trabajo en equipo</li>
+            <li>Manejo de habilidades blandas</li>
+            <li>Pensamiento logico</li>
+            <li>Habilidades de programación</li>
+            <li>Disciplina</li>
+            <li>Capacidad de liderazgo</li>
+            <li>Capacidad de adaptación</li>
+        </ul>
+        <h1>Habilidades tecnicas</h1>
+        <div class="languages">
+            <img src="Images/HTML.png" alt="HTML">
+            <img src="Images/CSS.png" alt="CSS">
+            <img src="Images/JS.jpg" alt="JavaScript">
+            <img src="Images/php.png" alt="php">
+            <img src="Images/mysql.jpg" alt="MySql">
+            <img src="Images/Typescript.png" alt="Typescript">
+            <img src="Images/react.png" alt="React">
+            <img src="Images/python.png" alt="python">
+            <img src="Images/c.png" alt="c">
+            <img src="Images/c++.png" alt="c++">
+            <img src="Images/appsheet.png" alt="AppSheet">
+            <img src="Images/appscript.png" alt="AppScript">
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contacto</h1>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit" id="send-email">Enviar</button>
+            <button type="button" id="copy-email">Copiar Correo</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Andres Felipe Morales Mejia</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
