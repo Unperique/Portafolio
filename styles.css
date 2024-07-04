@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,10 +9,37 @@ body {
     color: #333;
 }
 
+.lang-select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#lang-select {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 1rem;
+}
+
+#lang-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#lang-select option {
+    padding: 10px;
+}
+
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 nav ul {
@@ -28,6 +57,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
 }
 
 section {
@@ -41,6 +75,13 @@ section {
 h1 {
     text-align: center;
     color: #333;
+    font-size: 2rem;
+}
+
+h2 {
+    color: #555;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .profile-photo {
@@ -70,6 +111,7 @@ form input, form textarea {
     margin-top: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 form button {
@@ -80,6 +122,8 @@ form button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
 }
 
 form button:hover {
@@ -102,8 +146,8 @@ footer {
 }
 
 .languages img {
-    width: 150px; /* Ajusta el tamaño según tus necesidades */
-    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -115,13 +159,13 @@ footer {
 .contact-links {
     margin-top: 1rem;
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
+    justify-content: center;
     gap: 1rem;
 }
 
 .contact-links img {
-    width: 40px; /* Ajusta el tamaño según sea necesario */
-    height: 40px; /* Ajusta el tamaño según sea necesario */
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
@@ -129,4 +173,3 @@ footer {
 .contact-links img:hover {
     transform: scale(1.1);
 }
-

@@ -27,12 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${data.about.hobbies_content}</p>
         `;
 
-        document.getElementById('projects').innerHTML = data.projects.items.map(item => `
-            <div class="project">
-                <h2>${item.title}</h2>
-                <p>${item.description}</p>
-            </div>
-        `).join('');
+        document.getElementById('projects').innerHTML = `
+            <h1>${data.projects.title}</h1>
+            ${data.projects.items.map(item => `
+                <div class="project">
+                    <h2>${item.title}</h2>
+                    <p>${item.description}</p>
+                </div>
+            `).join('')}
+        `;
+      
 
         document.getElementById('skills').innerHTML = `
             <h1>${data.skills.soft_skills.title}</h1>
