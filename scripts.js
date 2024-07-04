@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const myEmail = 'andresfelipemoralesmejia@gmail.com';
-    let selectedLanguage = localStorage.getItem('selectedLanguage') || 'es';
+    let selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
 
     const loadLanguage = (lang) => {
         fetch(`${lang}.json`)
