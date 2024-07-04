@@ -112,4 +112,21 @@ footer {
     transform: scale(1.1);
 }
 
+.contact-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 1rem;
+}
+
+.contact-links img {
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    height: 40px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.contact-links img:hover {
+    transform: scale(1.1);
+}
 
