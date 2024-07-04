@@ -146,7 +146,7 @@ footer {
 }
 
 .languages img {
-    width: 100px;
+    width: 150px;
     height: 100px;
     object-fit: contain;
     transition: transform 0.3s ease;
