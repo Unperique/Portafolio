@@ -1,0 +1,80 @@
+{
+    "header": {
+        "nav_links": [
+            { "id": "about", "text": "About Me" },
+            { "id": "projects", "text": "Projects" },
+            { "id": "skills", "text": "Skills" },
+            { "id": "contact", "text": "Contact" }
+        ]
+    },
+
+    "about": {
+        "title": "About Me",
+        "content": "I am not a machine, I am a developer eager to learn new skills and technologies every day. My name is Andrés Felipe Morales Mejía and I am a student at the Technological University of Pereira, majoring in systems and computing engineering. My main focus is the frontend, but I'm up for anything.",
+        "hobbies_title": "Hobbies",
+        "hobbies_content": "Fan of sports such as Taekwondo and Basketball, former Taekwondo team of my department, fan of 80s music, ballads and rock, passionate about video games and good food, in addition to travel, motorcycle adventures through landscapes of my country."
+    },
+    "projects": {
+        "title": "Main Projects",
+        "items": [
+            {
+                "title": "Automated Email Delivery",
+                "description": "In the company I needed this service since the client did not receive the email for the products or monthly payments, so using Excel and AppScript I sent automatic and personalized emails."
+            },
+            {
+                "title": "Information System",
+                "description": "I was selected for the Doctoral Faculty of Engineering, which used many Google spreadsheet tables for information management. To solve this problem and without spending faculty resources, use Google AppSheet for better information management of each student."
+            },
+            {
+                "title": "Other Projects",
+                "description": "For more projects, visit my <a href=\"https://github.com/Unperique\" target=\"_blank\">GitHub</a>."
+            }
+        ]
+    },
+    "skills": {
+        "soft_skills": {
+            "title": "Soft Skills",
+            "items": [
+                "Teamwork",
+                "Soft skills management",
+                "Logical thinking",
+                "Programming skills",
+                "Discipline",
+                "Leadership skills",
+                "Adaptability"
+            ]
+        },
+        "technical_skills": {
+            "title": "Technical Skills",
+            "items": [
+                "HTML",
+                "CSS",
+                "js",
+                "PHP",
+                "MySQL",
+                "TypeScript",
+                "React",
+                "Python",
+                "C",
+                "C++",
+                "AppSheet",
+                "AppScript"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "form_labels": {
+            "name": "Name:",
+            "email": "Email:",
+            "message": "Message:"
+        },
+        "buttons": {
+            "submit": "Send",
+            "copy_email": "Copy Email"
+        }
+    },
+    "footer": {
+        "copyright": "&copy; 2024 Andres Felipe Morales Mejia"
+    }
+}

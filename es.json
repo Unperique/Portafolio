@@ -1,0 +1,81 @@
+{
+    "header": {
+        "nav_links": [
+            { "id": "about", "text": "Sobre mí" },
+            { "id": "projects", "text": "Proyectos" },
+            { "id": "skills", "text": "Habilidades" },
+            { "id": "contact", "text": "Contacto" }
+        ]
+    },
+    
+    "about": {
+      "title": "Sobre mí",
+      "content": "No soy una máquina, soy un desarrollador con ganas de aprender cada día nuevas habilidades y tecnologías. Mi nombre es Andrés Felipe Morales Mejía y soy estudiante de la Universidad Tecnológica de Pereira, en la carrera de ingeniería de sistemas y computación. Mi enfoque principal es el frontend, pero me le mido a lo que sea.",
+      "hobbies_title": "Hobbies",
+      "hobbies_content": "Fanático del deporte como Taekwondo y Baloncesto, ex-selección de Taekwondo de mi departamento, fan de la música de los 80s, baladas y rock, apasionado de los videojuegos y el buen comer, además de los viajes, las aventuras en moto por paisajes de mi país."
+    },
+    "projects": {
+      "title": "Proyectos Principales",
+      "items": [
+        {
+          "title": "Envío de correos automatizados",
+          "description": "En la empresa necesitaba este servicio ya que al cliente no le llegaba el correo de los productos o mensualidades, por lo que usando Excel y AppScript realicé un envío automático de correos y personalizados."
+        },
+        {
+          "title": "Sistema de información",
+          "description": "Fui seleccionado para que la Facultad de Doctorado en Ingenierías, la cual usaba muchas tablas de hojas de cálculo de Google para el manejo de la información. Para solucionar este problema y sin gastar recursos de la facultad, usé AppSheet de Google para un mejor manejo de información de cada estudiante."
+        },
+        {
+            "title": "Otros proyectos",
+            "description": "Para más proyectos puedes visitar mi <a href=\"https://github.com/Unperique\" target=\"_blank\">GitHub</a>."
+        }
+      ]
+    },
+    "skills": {
+      "soft_skills": {
+        "title": "Habilidades blandas",
+        "items": [
+          "Trabajo en equipo",
+          "Manejo de habilidades blandas",
+          "Pensamiento lógico",
+          "Habilidades de programación",
+          "Disciplina",
+          "Capacidad de liderazgo",
+          "Capacidad de adaptación"
+        ]
+      },
+      "technical_skills": {
+        "title": "Habilidades técnicas",
+        "items": [
+          "HTML",
+          "CSS",
+          "js",
+          "PHP",
+          "MySQL",
+          "TypeScript",
+          "React",
+          "Python",
+          "C",
+          "C++",
+          "AppSheet",
+          "AppScript"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "form_labels": {
+        "name": "Nombre:",
+        "email": "Correo Electrónico:",
+        "message": "Mensaje:"
+      },
+      "buttons": {
+        "submit": "Enviar",
+        "copy_email": "Copiar Correo"
+      }
+    },
+    "footer": {
+      "copyright": "&copy; 2024 Andrés Felipe Morales Mejía"
+    }
+  }
+  
