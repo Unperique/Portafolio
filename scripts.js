@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(`${lang}.json`)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Se pudo cargar el archivo JSON');
+                    throw new Error('No se pudo cargar el archivo JSON');
                 }
                 return response.json();
             })
@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </ul>
             <h1>${data.skills.technical_skills.title}</h1>
             <div class="languages">
-                ${data.skills.technical_skills.items.map(language => `
+                ${data.skills.technical_skills.items ? data.skills.technical_skills.items.map(language => `
                     <img src="Images/${language.toLowerCase()}.png" alt="${language}">
-                `).join('')}
+                `).join('') : ''}
             </div>
         `;
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="Images/github.png" alt="GitHub">
                     </a>
                     <a href="https://www.linkedin.com/in/andres-felipe-morales-20b944213/" target="_blank">
-                        <img src="Images/linkedin.png" alt="LinkedIn">
+                        <img src="Images/LinkedIn.png" alt="LinkedIn">
                     </a>
                 </div>
             </form>
@@ -78,6 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (data.header.language_select && data.header.language_select.options) {
             langSelect.innerHTML = data.header.language_select.options.map(option => `<option value="${option.value}">${option.text}</option>`).join('');
             langSelect.previousElementSibling.textContent = data.header.language_select.label;
+        } else {
+            console.error('No se encontraron opciones de idioma definidas en el archivo JSON.');
         }
     };
 

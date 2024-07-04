@@ -7,7 +7,6 @@
             { "id": "contact", "text": "Contact" }
         ]
     },
-
     "about": {
         "title": "About Me",
         "content": "I am not a machine, I am a developer eager to learn new skills and technologies every day. My name is Andrés Felipe Morales Mejía and I am a student at the Technological University of Pereira, majoring in systems and computing engineering. My main focus is the frontend, but I'm up for anything.",
@@ -45,7 +44,21 @@
             ]
         },
         "technical_skills": {
-            "title": "Technical Skills"
+            "title": "Technical Skills",
+            "items": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "php",
+                "MySql",
+                "TypeScript",
+                "React",
+                "python",
+                "c",
+                "c++",
+                "AppSheet",
+                "AppScript"
+            ]
         }
     },
     "contact": {
