@@ -25,6 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${data.about.content}</p>
             <h1>${data.about.hobbies_title}</h1>
             <p>${data.about.hobbies_content}</p>
+            <div class="hobbies">
+                ${data.about.hobbies_images.map(hobby => `
+                    <img src="${hobby.src}" alt="${hobby.alt}" class="hobbies_images">
+                `).join('')}
+            </div>
+            <a href="hoja_de_vida.pdf" class="download_resume">${data.contact.buttons.download_resume}</a>
         `;
 
         document.getElementById('projects').innerHTML = `
@@ -33,10 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="project">
                     <h2>${item.title}</h2>
                     <p>${item.description}</p>
+                    <img src="${item.image}" alt="${item.title}" class="project-image">
                 </div>
             `).join('')}
         `;
-      
 
         document.getElementById('skills').innerHTML = `
             <h1>${data.skills.soft_skills.title}</h1>
@@ -45,9 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </ul>
             <h1>${data.skills.technical_skills.title}</h1>
             <div class="languages">
-                ${data.skills.technical_skills.items ? data.skills.technical_skills.items.map(language => `
-                    <img src="Images/${language.toLowerCase()}.png" alt="${language}">
-                `).join('') : ''}
+                ${data.skills.technical_skills.items.map(language => `
+                    <img src="Images/${language.toLowerCase()}.png" alt="${language}" class="language-image">
+                `).join('')}
             </div>
         `;
 

@@ -12,22 +12,31 @@
       "title": "Sobre mí",
       "content": "No soy una máquina, soy un desarrollador con ganas de aprender cada día nuevas habilidades y tecnologías. Mi nombre es Andrés Felipe Morales Mejía y soy estudiante de la Universidad Tecnológica de Pereira, en la carrera de ingeniería de sistemas y computación. Mi enfoque principal es el frontend, pero me le mido a lo que sea.",
       "hobbies_title": "Hobbies",
-      "hobbies_content": "Fanático del deporte como Taekwondo y Baloncesto, ex-selección de Taekwondo de mi departamento, fan de la música de los 80s, baladas y rock, apasionado de los videojuegos y el buen comer, además de los viajes, las aventuras en moto por paisajes de mi país."
+      "hobbies_content": "Fanático del deporte como Taekwondo y Baloncesto, ex-selección de Taekwondo de mi departamento, fan de la música de los 80s, baladas y rock, apasionado de los videojuegos y el buen comer, además de los viajes, las aventuras en moto por paisajes de mi país.",
+      "hobbies_images": [
+            {"src": "Images/hobby1.jpg", "alt": "Hobby 1"},
+            {"src": "Images/hobby2.jpg", "alt": "Hobby 2"},
+            {"src": "Images/hobby3.jpg", "alt": "Hobby 3"}
+        ]
     },
+
     "projects": {
       "title": "Proyectos Principales",
       "items": [
         {
           "title": "Envío de correos automatizados",
-          "description": "En la empresa necesitaba este servicio ya que al cliente no le llegaba el correo de los productos o mensualidades, por lo que usando Excel y AppScript realicé un envío automático de correos y personalizados."
+          "description": "En la empresa necesitaba este servicio ya que al cliente no le llegaba el correo de los productos o mensualidades, por lo que usando Excel y AppScript realicé un envío automático de correos y personalizados.",
+          "image": "Images/envíoCorreosAutomatizados.png"
         },
         {
           "title": "Sistema de información",
-          "description": "Fui seleccionado para que la Facultad de Doctorado en Ingenierías, la cual usaba muchas tablas de hojas de cálculo de Google para el manejo de la información. Para solucionar este problema y sin gastar recursos de la facultad, usé AppSheet de Google para un mejor manejo de información de cada estudiante."
+          "description": "Fui seleccionado para que la Facultad de Doctorado en Ingenierías, la cual usaba muchas tablas de hojas de cálculo de Google para el manejo de la información. Para solucionar este problema y sin gastar recursos de la facultad, usé AppSheet de Google para un mejor manejo de información de cada estudiante.",
+          "image": "Images/SistemaInformación.png"
         },
         {
             "title": "Otros proyectos",
-            "description": "Para más proyectos puedes visitar mi <a href=\"https://github.com/Unperique\" target=\"_blank\">GitHub</a>."
+            "description": "Para más proyectos puedes visitar mi <a href=\"https://github.com/Unperique\" target=\"_blank\">GitHub</a>.",
+            "image": "Images/Programas1.png"
         }
       ]
     },
@@ -71,7 +80,8 @@
       },
       "buttons": {
         "submit": "Enviar",
-        "copy_email": "Copiar Correo"
+        "copy_email": "Copiar Correo",
+        "download_resume": "Descargar hoja de vida"
       }
     },
     "footer": {
