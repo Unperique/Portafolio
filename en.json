@@ -13,9 +13,9 @@
         "hobbies_title": "Hobbies",
         "hobbies_content": "Fan of sports such as Taekwondo and Basketball, former Taekwondo team of my department, fan of 80s music, ballads and rock, passionate about video games and good food, in addition to travel, motorcycle adventures through landscapes of my country.",
         "hobbies_images": [
-            {"src": "Images/hobby1.jpg", "alt": "Hobby 1"},
-            {"src": "Images/hobby2.jpg", "alt": "Hobby 2"},
-            {"src": "Images/hobby3.jpg", "alt": "Hobby 3"}
+            {"src": "Images/Hobby1.jpg", "alt": "Hobby 1"},
+            {"src": "Images/Hobby2.jpg", "alt": "Hobby 2"},
+            {"src": "Images/Hobby3.jpg", "alt": "Hobby 3"}
         ]
     },
     "projects": {
@@ -24,7 +24,7 @@
             {
                 "title": "Automated Email Delivery",
                 "description": "In the company I needed this service since the client did not receive the email for the products or monthly payments, so using Excel and AppScript I sent automatic and personalized emails.",
-                "image": "Images/EnvíoCorreosAutomatizados.png"
+                "image": "Images/envioCorreosAutomatizados.png"
             },
             {
                 "title": "Information System",
@@ -34,7 +34,7 @@
             {
                 "title": "Other Projects",
                 "description": "For more projects, visit my <a href=\"https://github.com/Unperique\" target=\"_blank\">GitHub</a>.",
-                "image": "Images/Programas1.png"
+                "image": "Images/programas1.png"
             }
         ]
     },

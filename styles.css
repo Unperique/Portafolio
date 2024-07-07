@@ -1,4 +1,4 @@
-/* Reset básico y estilos generales */
+/* Estilos generales */
 
 body {
     font-family: 'Arial', sans-serif;
@@ -12,22 +12,21 @@ body {
 /* Contenedor para el menú desplegable de idiomas */
 
 .lang-select-container {
-    position: absolute;
-    top: 10px;
-    right: 10px;
     display: flex;
     align-items: center;
+    position: absolute;
+    padding: 10px;
+    top: 10px;
 }
 
 #lang-select {
-    padding: 8px 12px; /* Reducir el padding para hacerlo más pequeño */
-    font-size: 14px; /* Reducir el tamaño de la fuente */
+    padding: 4px 8px; 
+    font-size: 14px; 
     border: 1px solid #ccc;
     border-radius: 3px;
     background-color: #f9f9f9;
     transition: border-color 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-left: 1rem;
 }
 
 #lang-select:focus {
@@ -35,7 +34,18 @@ body {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Estilos para el encabezado */
+/* Media query para ajustar el contenedor en pantallas pequeñas */
+
+@media (max-width: 768px) {
+    .lang-select-container {
+        justify-content: center;
+        width: 100%;
+        position: static;
+        margin-top: 10px;
+    }
+}
+
+/* Estilos adicionales para el encabezado y otras secciones (agregados por completitud) */
 
 header {
     background-color: #333;
@@ -65,10 +75,8 @@ nav ul li a:hover {
     color: #f9f9f9;
 }
 
-/* Estilos para las secciones */
-
 section {
-    padding: 2rem; /* Aumentar el padding para más espacio alrededor del contenido */
+    padding: 2rem;
     margin: 2rem 0;
     background-color: #fff;
     border-radius: 8px;
@@ -87,16 +95,16 @@ h2 {
     margin-top: 1rem;
 }
 
+
 /* Estilos para la foto de perfil */
 
 .profile-photo {
     display: block;
     margin: 0 auto;
-    width : 400px;
-    height: 400px;
+    width : 30%;
     border-radius: 50%;
     object-fit: cover;
-    animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+    animation: fadeIn 1s ease-in-out; 
 }
 
 /* Estilos para las imágenes redondas (hobbies y habilidades) */
@@ -108,7 +116,7 @@ h2 {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+    animation: fadeIn 1s ease-in-out; 
 }
 
 .hobbies_images img {
@@ -144,7 +152,7 @@ h2 {
     height: 100px; 
     object-fit: contain;
     transition: transform 0.3s ease;
-    animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+    animation: fadeIn 1s ease-in-out; 
 }
 
 .languages img:hover {
@@ -154,8 +162,7 @@ h2 {
 /* Estilos para las imágenes de proyectos */
 
 .project-image {
-    width: 800px;
-    height: 400px;
+    width: 60%;
     margin: 10px auto;
     display: block;
     transition: transform 0.3s, opacity 0.3s;

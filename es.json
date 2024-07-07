@@ -14,9 +14,9 @@
       "hobbies_title": "Hobbies",
       "hobbies_content": "Fanático del deporte como Taekwondo y Baloncesto, ex-selección de Taekwondo de mi departamento, fan de la música de los 80s, baladas y rock, apasionado de los videojuegos y el buen comer, además de los viajes, las aventuras en moto por paisajes de mi país.",
       "hobbies_images": [
-            {"src": "Images/hobby1.jpg", "alt": "Hobby 1"},
-            {"src": "Images/hobby2.jpg", "alt": "Hobby 2"},
-            {"src": "Images/hobby3.jpg", "alt": "Hobby 3"}
+            {"src": "Images/Hobby1.jpg", "alt": "Hobby 1"},
+            {"src": "Images/Hobby2.jpg", "alt": "Hobby 2"},
+            {"src": "Images/Hobby3.jpg", "alt": "Hobby 3"}
         ]
     },
 
@@ -26,7 +26,7 @@
         {
           "title": "Envío de correos automatizados",
           "description": "En la empresa necesitaba este servicio ya que al cliente no le llegaba el correo de los productos o mensualidades, por lo que usando Excel y AppScript realicé un envío automático de correos y personalizados.",
-          "image": "Images/envíoCorreosAutomatizados.png"
+          "image": "Images/envioCorreosAutomatizados.png"
         },
         {
           "title": "Sistema de información",
@@ -36,7 +36,7 @@
         {
             "title": "Otros proyectos",
             "description": "Para más proyectos puedes visitar mi <a href=\"https://github.com/Unperique\" target=\"_blank\">GitHub</a>.",
-            "image": "Images/Programas1.png"
+            "image": "Images/programas1.png"
         }
       ]
     },
